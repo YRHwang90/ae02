@@ -14,6 +14,10 @@ In this mini analysis we work with the data used in the FiveThirtyEight story ti
 
 We start with loading the packages we'll use.
 
+if package is not installed, use followings:
+install.packages("fivethirtyeight")
+install.packages("tidyverse")
+
 ```{r load-packages, message=FALSE}
 library(fivethirtyeight)
 library(tidyverse)
